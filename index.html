@@ -1,23 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="annimation.css">
-    <link rel="stylesheet" href="mobile-screen.css" media="(max-width: 700px)" >
-    <title>Document</title>
-</head>
-<body>
-<!-- header for bigger screen  -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="annimation.css" />
+    <link rel="stylesheet" href="mobile-screen.css" media="(max-width: 600px)"
+    />
+    <title>Drop Menu</title>
+  </head>
+  <body>
+    <!-- header for bigger screen  -->
     <header class="bigger">
         <h1>Omar Frikha</h1>
-    </header>
-  
-    <!-- header for mobile  -->
-    <header class="mobile">
-        <h1>Omar Frikha</h1>
+        <ul class="ul-flex">
+            <li class="main-list">         
+                    <a class="main-link" href="#"> HTML </a>
+                    <ul class="sub-list">
+                        <li><a class="sub-link" href="#">Full Course</a></li>
+                        <li><a class="sub-link" href="#">Crash Course</a></li>
+                        <li><a class="sub-link" href="#">Learn in 1h</a></li>
+                    </ul>
+            </li>
+            <li class="main-list">       
+                    <a class="main-link" href="#"> CSS </a>
+                    <ul class="sub-list">
+                        <li><a class="sub-link" href="#">Full Course</a></li>
+                        <li><a class="sub-link" href="#">CSS project</a></li>
+                        <li class="mini-project">
+                            <a class="sub-link" href="#">Mini projects &#10133;</a>
+                            <ul class="sub-sub-list">
+                                <li><a href="#">Project 1</a></li>
+                                <li><a href="#">Project 2</a></li>
+                                <li><a href="#">Project 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+            </li>
+            <li class="main-list">      
+                    <a class="main-link" href="#"> JavaScript </a>
+                    <ul class="sub-list sub-of-js">
+                        <li><a class="sub-link" href="#">Coming soon &#128293;</a></li>
+                    </ul>    
+            </li>
+        </ul>
+
+
     </header>
 
-</body>
+
+
+
+
+
+    <!-- header for mobile  -->
+    <header class="mobile">
+      <!-- <h1>Omar Frikha</h1>
+      <ul>
+        <li>       <a href="#"> HTML </a></li>
+        <li>       <a href="#"> CSS </a></li>
+        <li>       <a href="#"> JavaScript </a></li>
+      </ul> -->
+
+
+    </header>
+  </body>
 </html>

@@ -1,0 +1,11 @@
+
+    .mobile{
+        display: block;
+    }
+    .bigger{
+        display: none;
+    }
+
+    h1{
+        color: red;
+    }

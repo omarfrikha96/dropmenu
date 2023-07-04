@@ -1,8 +1,89 @@
+.mobile {
+  display: block;
+}
+.bigger {
+  display: none;
+}
 
-    .mobile{
-        display: block;
-    }
-    .bigger{
-        display: none;
-    }
+/* hamburger menu  */
+input {
+  display: none;
+}
 
+.absolute {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.fa-bars {
+  font-size: 30px;
+  transform: scaleX(1.4);
+}
+
+.fas {
+    position: absolute;
+    right: 10vw;
+}
+#plus:checked + .show-on-click {
+  display: block;
+}
+
+label{
+    font-size: 22px;
+    display: block;
+    padding: 20px;
+}
+label:hover , .fa-bars:hover , label:hover .fas {
+    color: cyan;
+    letter-spacing: 2px;
+}
+/* show on click */
+.show-on-click {
+  display: none;
+  border-top: 2px solid black;
+}
+
+.main-div{
+    border-bottom: 2px solid black;
+}
+
+/* sub of div */
+.sub-div {
+    display: none;
+}
+
+#html:checked + .sub-div , #css:checked + .sub-div , #js:checked + .sub-div{
+    display: block;
+}
+
+.sub-div li{
+    font-size: 17px;
+    padding: 10px 0 10px 35px;
+
+}
+
+.sub-div li a:hover{
+    color: cyan;
+    letter-spacing: 2px;
+}
+
+.sub-div li a{
+    display: block;
+}
+
+/* sub-sub of div */
+
+.sub-sub-div{
+    display: none;
+    margin-top: 15px;
+}
+
+.project {
+    padding: 0;
+    font-size: 17px;
+}
+
+#project:checked + .sub-sub-div {
+    display: block;
+}
